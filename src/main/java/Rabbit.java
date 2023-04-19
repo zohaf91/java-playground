@@ -10,4 +10,9 @@ public class Rabbit extends Animal {
     public void play() {
         System.out.println("Rabbit " + name + " is idling");
     }
+
+    @Override
+    public void play(Toy toy) {
+        System.out.println("Rabbit " + name + " ignoring the toy");
+    }
 }
